@@ -18,7 +18,7 @@ def main():
     col1, col2 = st.columns(2)
 
     # Add a logo to the first column
-    logo = Image.open(r"logo.png")  # Replace with the path to your logo image
+    logo = Image.open(r"logo1.png")  # Replace with the path to your logo image
     col1.image(logo, use_column_width=True)
 
     # Add the app name to the second column
